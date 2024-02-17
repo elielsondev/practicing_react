@@ -1,9 +1,10 @@
 import React from 'react';
+import Title from './components/Title';
 
 function App() {
   return (
     <>
-      <h1>Work in progress</h1>
+      <Title />
     </>
   )
 }
