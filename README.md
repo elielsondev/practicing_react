@@ -11,7 +11,7 @@ Praticando os principais conceitos do React
 - [X] 3. Crie o arquivo .eslintrc.json e faça o extends para 
 ```@trybe/eslint-config-frontend/typescript```
 
-- [ ] 4. Inicie o projeto e veja se está tudo funcionando.
+- [X] 4. Inicie o projeto e veja se está tudo funcionando.
 Como sugestão, você pode deletar todo o conteúdo que não é necessário, do arquivo App.tsx e deixar apenas o return do componente com algo como ```<div>Work in progress</div>```.
 
 - [ ] 5. Crie um componente chamado Title que exiba o título                                     ```<h1>Desenvolvimento Web</h1>``` na tela.
