@@ -5,7 +5,7 @@ Praticando os principais conceitos do React
 - [X] 1. Crie um projeto React com TS usando Vite 
 ```npm create vite@latest```
 
-- [ ] 2. Entre na pasta do projeto, instale as dependências e, depois, instale o eslint da Trybe 
+- [X] 2. Entre na pasta do projeto, instale as dependências e, depois, instale o eslint da Trybe 
 ```npm install @trybe/eslint-config-frontend```
 
 - [ ] 3. Crie o arquivo .eslintrc.json e faça o extends para 
