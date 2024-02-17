@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Practicing React
+Praticando os principais conceitos do React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Checklist
+- [X] 1. Crie um projeto React com TS usando Vite 
+```npm create vite@latest```
 
-Currently, two official plugins are available:
+- [ ] 2. Entre na pasta do projeto, instale as dependências e, depois, instale o eslint da Trybe 
+```npm install @trybe/eslint-config-frontend```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [ ] 3. Crie o arquivo .eslintrc.json e faça o extends para 
+```@trybe/eslint-config-frontend/typescript```
 
-## Expanding the ESLint configuration
+- [ ] 4. Inicie o projeto e veja se está tudo funcionando.
+Como sugestão, você pode deletar todo o conteúdo que não é necessário, do arquivo App.tsx e deixar apenas o return do componente com algo como ```<div>Work in progress</div>```.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [ ] 5. Crie um componente chamado Title que exiba o título                                     ```<h1>Desenvolvimento Web</h1>``` na tela.
 
-- Configure the top-level `parserOptions` property like this:
+- [ ] 6. Crie um componente chamado ```ModuleDetails``` que exiba o nome dos módulos deste curso.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [ ] 7. Crie um componente chamado ```HelloWorld``` que importa e renderiza os componentes criados anteriormente.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [ ] 8. Renderize o componente ```HelloWorld``` no componente ```App```.
+
+- [ ] 9. No componente ```HelloWorld```, crie uma função que calcule a idade do usuário a partir da data de nascimento e a exiba na tela. 
+
+Dica: você poderá pegar essa fórmula pronta da internet.
+
+Para realizar o cálculo da idade, você pode criar uma função utilitária, colocá-la dentro da pasta ```src/utils/age.ts``` e importá-la no componente HelloWorld ou, se preferir, pode criar a função diretamente no componente HelloWorld.
