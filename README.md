@@ -8,7 +8,7 @@ Praticando os principais conceitos do React
 - [X] 2. Entre na pasta do projeto, instale as dependências e, depois, instale o eslint da Trybe 
 ```npm install @trybe/eslint-config-frontend```
 
-- [ ] 3. Crie o arquivo .eslintrc.json e faça o extends para 
+- [X] 3. Crie o arquivo .eslintrc.json e faça o extends para 
 ```@trybe/eslint-config-frontend/typescript```
 
 - [ ] 4. Inicie o projeto e veja se está tudo funcionando.
