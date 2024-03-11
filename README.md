@@ -16,7 +16,7 @@ Como sugestão, você pode deletar todo o conteúdo que não é necessário, do 
 
 - [X] 5. Crie um componente chamado Title que exiba o título                                     ```<h1>Desenvolvimento Web</h1>``` na tela.
 
-- [ ] 6. Crie um componente chamado ```ModuleDetails``` que exiba o nome dos módulos deste curso.
+- [X] 6. Crie um componente chamado ```ModuleDetails``` que exiba o nome dos módulos deste curso.
 
 - [ ] 7. Crie um componente chamado ```HelloWorld``` que importa e renderiza os componentes criados anteriormente.
 
