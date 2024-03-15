@@ -20,7 +20,7 @@ Como sugestão, você pode deletar todo o conteúdo que não é necessário, do 
 
 - [x] 7. Crie um componente chamado ```HelloWorld``` que importa e renderiza os componentes criados anteriormente.
 
-- [ ] 8. Renderize o componente ```HelloWorld``` no componente ```App```.
+- [X] 8. Renderize o componente ```HelloWorld``` no componente ```App```.
 
 - [ ] 9. No componente ```HelloWorld```, crie uma função que calcule a idade do usuário a partir da data de nascimento e a exiba na tela. 
 
