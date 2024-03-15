@@ -18,7 +18,7 @@ Como sugestão, você pode deletar todo o conteúdo que não é necessário, do 
 
 - [X] 6. Crie um componente chamado ```ModuleDetails``` que exiba o nome dos módulos deste curso.
 
-- [ ] 7. Crie um componente chamado ```HelloWorld``` que importa e renderiza os componentes criados anteriormente.
+- [x] 7. Crie um componente chamado ```HelloWorld``` que importa e renderiza os componentes criados anteriormente.
 
 - [ ] 8. Renderize o componente ```HelloWorld``` no componente ```App```.
 
